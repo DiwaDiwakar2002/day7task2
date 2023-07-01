@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Kaushan+Script&display=swap');
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Belanosima', sans-serif;
+    background-image: url('https://bondsbarbershop.co.uk/images/home-hero.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+}
+
+.black{
+    width: 100vw;
+    height: 100vh;   
+    background-color: rgba(0, 0, 0, 0.622);
+    overflow: hidden;
+}
+
+.gradient{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, rgb(255, 102, 0), rgba(255, 255, 255, 0));
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    bottom: 600px;
+}
+
+.main{
+    position: absolute;
+    z-index: 2;
+    bottom: 500px;
+}
+
+.icon{
+    position: relative;
+    top: 20px;
+    left: -50px;
+    font-size: 30px;
+    color: rgb(255, 102, 0);
+}
+
+h2{
+    position: relative;
+    top: -10px;
+    left: 30px;
+}
+
+p{
+    position: relative;
+    left: 550px;
+    top: 110px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    
+}
+.bar{
+    position: relative;
+    bottom: 30px;
+    left: 1200px;
+    font-size: 30px;
+    color: rgb(255, 102, 0);
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    position: relative;
+    left: 550px;
+    top: 100px;
+}
+
+.btn1{
+    font-size: 15px;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 530px;
+    font-family: 'Belanosima', sans-serif;
+    box-shadow: 0 0 15px rgb(255, 102, 0);
+}
+
+.btn2{
+    font-size: 15px;
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    position: relative;
+    top: 200px;
+    left: 550px;
+    font-family: 'Belanosima', sans-serif;
+    box-shadow: 0 0 15px rgb(255, 102, 0);
+
+}
+
